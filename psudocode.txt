@@ -1,0 +1,12 @@
+Player choose Rock  Paper Scissors
+
+computer chooses rock paper or scissors
+
+Rules
+  rock beats scissors
+  scissors beats paper
+  paper beats rock
+
+check winning conditions
+
+display who won to user

@@ -1,0 +1,57 @@
+Psudocoding example
+
+  How would you reverse a string with out .reverse
+
+    1 get the string
+
+    2 break down the string
+
+    3. pop each ele in the array
+
+    4 put ele one by one in new array
+
+    5 convert to a string
+
+Psudocoding is like a recipe
+
+You can also use a flow diagram
+
+row_one   = []
+   row_two   = []
+   row_three = []
+   row_four  = []
+   while matrix[0].size > 0 do
+    row_one.push(matrix[0].pop)
+    row_two.push(matrix[0].pop)
+    row_three.push(matrix[0].pop)
+    row_four.push(matrix[0].pop)
+   end
+
+   while matrix[1].size > 0 do
+    row_one.push(matrix[1].pop)
+    row_two.push(matrix[1].pop)
+    row_three.push(matrix[1].pop)
+    row_four.push(matrix[1].pop)
+   end
+
+   while matrix[2].size > 0 do
+    row_one.push(matrix[2].pop)
+    row_two.push(matrix[2].pop)
+    row_three.push(matrix[2].pop)
+    row_four.push(matrix[2].pop)
+   end
+
+   while matrix[3].size > 0 do
+    row_one.push(matrix[3].pop)
+    row_two.push(matrix[3].pop)
+    row_three.push(matrix[3].pop)
+    row_four.push(matrix[3].pop)
+   end
+  final_matrix = []
+  final_matrix.push(row_one)
+  final_matrix.push(row_two)
+  final_matrix.push(row_three)
+  final_matrix.push(row_four)
+ puts ''
+ final_matrix.each { |row| puts row.inspect }
+ end
