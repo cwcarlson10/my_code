@@ -5,8 +5,8 @@
 class Matrix
 
   def grid
-    a = Array.new(10, rand(0..9))
-    b = Array.new(10, rand(0..9))
+    a = Array.new
+    b = Array.new
     b << a
 
     puts "Sample Matrix:"
