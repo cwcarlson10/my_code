@@ -1,10 +1,9 @@
- dict_array = []
+dude = {
+  age: 44,
+  weight: 250,
+  net_worth: 25
+}
 
- dict_array[0] = 'candle'
- dict_array[1] = 'glasses'
- dict_array[2] = 'truck'
- dict_array[3] = 'Alicia'
+dude2 = dude.values.inject(1) do |product, number|
+  product
 
- dict_array.each do |word|
-  puts word
-end
